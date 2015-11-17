@@ -1,0 +1,38 @@
+body {
+	background-color: black;
+	color: #00FF00;
+	font-family: Courier;
+	text-shadow: 2px 2px 0px rgba(0,0,0,.5);
+	margin: 0;
+}
+
+.container {
+	background-color: black;
+	margin: 0 auto;
+	width: 70%;
+
+}
+
+h1 {
+	text-align:center;
+	font-size: 45px;
+}
+
+h2 { 
+	text-align: center;
+	font-size: 40px;
+
+}
+
+h3 {
+	font-size: 25px;
+	
+}
+
+p {
+	font-size: 20px;
+}
+
+strong {
+	font-size: 25px;
+}

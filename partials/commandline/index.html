@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="main.css">
+<title>Command Line Lightning Talks</title>
+</head>
+<body>
+<div class="container">
+<header>
+<h1>Command Line Basics</h1>
+<h2>What is the Command Line?</h2>
+
+
+</header>
+
+<p>The command line is a tool that has control over your entire computer, all from performing simple, yet specific tasks to do precisely what you tell it to. From the command line, you can navigate through, create, or remove files and folders on your computer, just as you would with Finder on Mac OS or Windows Explorer on Windows. The difference is that the command line is fully text-based. The advantage of using the command line is its power. You can run programs, write scripts to automate common tasks, and combine simple commands to handle difficult tasks - making it an important programming tool.  It is a user interface that is navigated by typing commands at prompts, instead of using the mouse. </p>
+
+<h3>  $ (Dollar Sign)</h3> 
+<p>In the terminal, this is called a shell prompt. It appears when the terminal is ready to accept a command. It is required in the beginning of every command, but it appears automatically.  DO NOT TYPE IT.</p>
+
+<h3>$ cd </h3>
+<p>Change Directory. This changes the current working directory to the directory you wish to access. </p>
+
+<h3>$ pwd </h3>
+<p>Print Working Directory, is used if you ever get lost in the terminal and are wondering which directory you are currently in. Run this command to get a trail of breadcrumbs all the way down from the top level of the computer to see where you are.</p>
+
+<h3> $ ls </h3>
+<p>Lists the contents inside the specified directory. If no directory is specified, it will provide the contents in the current working directory.</p>
+
+<h3>$ cat </h3>
+<p>Outputs the contents of a file to the command prompt.
+(NOTE: ls without any arguments will return a file name, thus it does not directly read a content of the file. Whereas cat will return a content of a file. <strong>Ja Feel?</strong></p>
+
+<h3>$ -a </h3>
+<p>Includes directory entries whose names begin with a dot (.).(I think?)
+</p>
+
+<h3>$ -m " "</h3>
+<p>Allows you to write comments for you or others you share files with to make note of any updates that were made </p>
+
+
+<h3>$ mkdir </h3>
+<p>Creates a new directory (folder). Pass the -p flag to create every directory in a given path.</p>
+
+<h3>$ open </h3>
+<p>EITHER --> Opens a file with the associated program --> Opens a directory with Finder --> Or opens a URL with the default web browser.</p>
+
+<h3>$ ps </h3>
+<p>List all running processes. Useful for seeing if a background program is still running.</p>
+
+<h3>$ rmdir </h3>
+<p>Removes a directory (folder). CAREFUL --> Directories deleted with this command do not go to the Trash --> They are deleted immediately.</p>
+
+<h3>$ rm </h3>
+<p>Permanently deletes a file. CAREFUL --> Files deleted with this command are also deleted immediately.</p>
+
+<h3>$ kill </h3>
+<p>Terminate an existing process. Pass the process ID of a given process to terminate it. You can find the process ID in the first column of the output of the ps command.</p>
+
+<h3>$ chown </h3>
+<p>Use the $ chown command to change the file user and/or group ownership.</p>
+
+<h3>$ chmod </h3>
+<p>Use the $ chmod command to change the file access permissions such as read, write, and access.</p>
+
+
+<h3>$ more </h3>
+<p>In computing, more is a command to view (but not modify) the contents of a text file -- one screen at a time. It is available on Unix, Unix-like systems, and Microsoft Windows.(I think this is just like the $ ls command but for PCs)</p>
+
+<h3>$ sudo </h3>
+<p>Super User Do. When you use this utility, you use an entire command as a single argument. For example, $ sudo ls -l ~/Desktop --> sudo asks for your user account password. As a security measure, the screen does not display anything as you type, not even asterisks (*). If the password is typed correctly, sudo executes the command with elevated permissions.</p>
+
+<h3> $ touch </h3>
+<p> If you want to create one or more files, without editing them, use the $ touch command. It is used to change the timestamp on a file. You can change access timestamps and modification timestamps with this command. If the file specified does not exist, touch will create a zero length file with the name specified. To mark a file with the current system time, you would issue this command:</p>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+<script src="js/jquery.tubular.1.0.js"></script> 
+<script src="js/script.js"></script>
+</body>
+</html>

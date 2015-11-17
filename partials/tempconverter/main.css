@@ -1,0 +1,33 @@
+header{
+    text-align: center;
+    font-size: 15px;
+    font-family:Papyrus,fantasy;
+    margin-top: 10px;
+    color: orange;
+    font-weight: bold;
+    font-style: oblique;
+    font-variant: small-caps;
+
+}
+h1    [
+    margin-bottom: 20px; 
+]
+
+#F,#C{
+    border:solid purple;
+    width: 50px;
+    text-align: left;
+}
+
+.container{
+    border: solid black;
+    background-color: silver; 
+    width: 450px;
+    padding-left: 20px;
+    text-align: left;
+    position: center;
+    margin-top: 20px;
+    margin-left: 400px;
+}
+
+
